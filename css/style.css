@@ -28,6 +28,7 @@ section.green .filter {
 
 section.grid {
 	overflow: hidden;
+	background-color: #009D47;
 }
 
 section.grid .col-sm-3 {
@@ -41,7 +42,6 @@ section.grid .col-sm-3 {
 	transition: width 0.5s;
 	-moz-transition: width 0.5s;
 	-webkit-transition: width 0.5s;
-	cursor: pointer;
 	width: 25%;
 	float: left;
 }
@@ -87,6 +87,7 @@ section.grid .col-sm-3 {
 	background-color: #fff;
 	padding: 7px 10px;
 	text-align: center;
+	cursor: pointer;
 }
 
 .square .read_more:after {
@@ -271,6 +272,10 @@ section.grid .col-sm-3 {
 	transition: margin-left 0.5s;
 	-moz-transition: margin-left 0.5s;
 	-webkit-transition: margin-left 0.5s;
+}
+
+.square.next:nth-child(8) {
+	margin-left: 1%;
 }
 
 .square.next:nth-child(5),
