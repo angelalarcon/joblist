@@ -232,7 +232,11 @@ section.grid .col-sm-3 {
 }
 
 .square .more_info {
+	transition: all 1.5s;
+	-moz-transition: all 1.5s;
+	-webkit-transition: all 1.5s;
 	visibility: hidden;
+	opacity: 0;
 }
 
 .square.open {
@@ -289,6 +293,7 @@ section.grid .col-sm-3 {
 
 .square.open .more_info {
 	visibility: visible;
+	opacity: 1;
 }
 
 .apply {

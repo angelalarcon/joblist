@@ -10,5 +10,6 @@ $(document).ready(function(){
 		$('.square').removeClass('open');
 		$('.square').css('transition', 'width 0s','-moz-transition', 'width 0s','-webkit-transition', 'width 0s');
 		$(this).parent().parent().parent().next().removeClass('next');
+		$('.square .more_info').css('transition', 'all 0s','-moz-transition', 'all 0s','-webkit-transition', 'all 0s')
 	});
 });
