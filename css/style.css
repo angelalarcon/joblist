@@ -1,0 +1,103 @@
+section.blue {
+	background-color: #00AEC3;
+	padding: 70px 0;
+	color: #fff;
+}
+
+section.blue h1 {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+
+section.white {
+	padding: 30px 0;
+	background-color: #fff;
+	color: #38434C;
+}
+
+section.green {
+	background-color: #38434C;
+	color: #fff;
+}
+
+section.green .filter {
+	background-color: #1A2228;
+	padding: 10px;
+}
+
+section.grid .col-sm-3 {
+	padding: 0;
+}
+
+.square {
+	position: relative;
+	padding: 10px;
+	color: #fff;
+}
+
+.square .height {
+	margin-top: 100%;
+}
+
+.square .content {
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.square h1 {
+	margin: 0;
+	font-size: 34px;
+}
+
+.square.line-1 {
+	background-color: #324B99;
+}
+
+.square.line-2 {
+	background-color: #0082C5;
+}
+
+.square.line-3 {
+	background-color: #0098D8;
+}
+
+.square.line-4 {
+	background-color: #009FB9;
+}
+
+.square.line-5 {
+	background-color: #009D47;
+}
+
+.square.line-6 {
+	background-color: #6CB143;
+}
+
+.square.line-7 {
+	background-color: #BCCE2E;
+}
+
+.square.line-8 {
+	background-color: #DEC031;
+}
+
+.square.line-9 {
+	background-color: #F5B60D;
+}
+
+.square.line-10 {
+	background-color: #ED8B21;
+}
+
+.square.line-11 {
+	background-color: #E45334;
+}
+
+.square.line-12 {
+	background-color: #E24640;
+}
