@@ -271,7 +271,12 @@ section.grid .col-sm-3 {
 
 .square.next:nth-child(5),
 .square.next:nth-child(9) {
-	margin-left: 0%;
+	margin-left: 0.1px;
+}
+
+.square:nth-child(8),
+.square:nth-child(12) {
+	margin-left: -0.1px;
 }
 
 .square.open .height {
