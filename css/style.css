@@ -42,7 +42,8 @@ section.grid .col-sm-3 {
 	-moz-transition: width 0.5s;
 	-webkit-transition: width 0.5s;
 	cursor: pointer;
-	width: 100%;
+	width: 25%;
+	float: left;
 }
 
 .square .height {
@@ -235,10 +236,42 @@ section.grid .col-sm-3 {
 }
 
 .square.open {
-	width: 200%;
+	width: 50%;
 	z-index: 2;
 	margin-bottom: -205%;
-	cursor: default;
+	margin-right: -25%;
+}
+
+.square.open:nth-child(4),
+.square.open:nth-child(8),
+.square.open:nth-child(12) {
+	margin-left: -25%;
+}
+
+.square.open:nth-child(5),
+.square.open:nth-child(6),
+.square.open:nth-child(7),
+.square.open:nth-child(8) {
+	margin-top: -25%;
+}
+
+.square.open:nth-child(9),
+.square.open:nth-child(10),
+.square.open:nth-child(11),
+.square.open:nth-child(12) {
+	margin-top: -50%;
+}
+
+.square.next {
+	margin-left: 25%;
+	transition: margin-left 0.5s;
+	-moz-transition: margin-left 0.5s;
+	-webkit-transition: margin-left 0.5s;
+}
+
+.square.next:nth-child(5),
+.square.next:nth-child(9) {
+	margin-left: 0%;
 }
 
 .square.open .height {
@@ -275,6 +308,7 @@ section.grid .col-sm-3 {
 	bottom: 30px;
 	right: 30px;
 	cursor: pointer;
+	z-index: 99;
 }
 
 .square-close span {

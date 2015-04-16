@@ -1,10 +1,14 @@
 $(document).ready(function(){
 
-	$('.square').click(function() {
-		$(this).addClass('open');
+	$('.read_more a').click(function() {
+		$(this).parent().parent().parent().addClass('open');
+		$('.square').css('transition', 'width 0.5s','-moz-transition', 'width 0.5s','-webkit-transition', 'width 0.5s');
+		$(this).parent().parent().parent().next().addClass('next');
 	});
 	
 	$('.square-close').click(function() {
 		$('.square').removeClass('open');
+		$('.square').css('transition', 'width 0s','-moz-transition', 'width 0s','-webkit-transition', 'width 0s');
+		$(this).parent().parent().parent().next().removeClass('next');
 	});
 });
