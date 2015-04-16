@@ -1,5 +1,16 @@
+@font-face {
+	font-family: Lato;
+	src: url('../fonts/lato_light.ttf');
+}
+
+body {
+	font-family: Lato;
+}
+
 section.blue {
 	background-color: #00AEC3;
+	background-image: url(../img/background.png);
+	background-size: cover;
 	padding: 70px 0;
 	color: #fff;
 }
@@ -242,7 +253,7 @@ section.grid .col-sm-3 {
 
 .square.open {
 	width: 50%;
-	z-index: 2;
+	z-index: 3;
 	margin-bottom: -205%;
 	margin-right: -25%;
 }
@@ -334,4 +345,14 @@ section.grid .col-sm-3 {
 	position: absolute;
 	bottom: 8px;
 	right: 8px;
+}
+
+.hold {
+	position: fixed;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: none;
 }
